@@ -2,8 +2,8 @@
 
 A based [Laravel](https://laravel.com/) template turbocharged by the stack:
 
--   [Inertia Js](https://inertiajs.com/) with [react](https://react.dev/)
--   [Tailwindcss](https://tailwindcss.com/) with [Shadcn UI](https://ui.shadcn.com/) components
+- [Inertia Js](https://inertiajs.com/) with [react](https://react.dev/)
+- [Tailwindcss](https://tailwindcss.com/) CSS framework
 
 ### How to start
 
@@ -28,8 +28,8 @@ The `app/Http/Middleware/HandleInertiaRequests` middleware returns the authentic
 
 ### Things to do
 
--   [ ] Authentication process
--   [ ] Contribution guide
+- [ ] Authentication process
+- [ ] Contribution guide
 
 ### License
 
