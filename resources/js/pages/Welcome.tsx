@@ -1,5 +1,4 @@
 import Logo from '@/components/Logo'
-import { Button } from '@/components/ui/button'
 import { Head, Link } from '@inertiajs/react'
 
 export default function Welcome() {
@@ -15,9 +14,9 @@ export default function Welcome() {
           </div>
           <ul>
             <div className="flex gap-3">
-              <Button asChild>
-                <Link href="/control-panel">Access Control Panel</Link>
-              </Button>
+              <Link href="/control-panel" as="button">
+                Access Control Panel
+              </Link>
             </div>
           </ul>
         </nav>

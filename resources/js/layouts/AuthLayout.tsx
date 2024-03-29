@@ -3,17 +3,14 @@ import { User } from '@/types'
 import { Head, Link } from '@inertiajs/react'
 import React from 'react'
 
-interface PropsAuthenticatedLayout {
+interface PropsAuthLayout {
   auth: {
     user: User
   }
   children: React.ReactNode
 }
 
-export default function AuthenticatedLayout({
-  auth,
-  children,
-}: PropsAuthenticatedLayout) {
+export default function AuthLayout({ auth, children }: PropsAuthLayout) {
   return (
     <>
       <Head title="Control Panel" />
